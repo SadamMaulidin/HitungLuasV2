@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LuasSegitigaActivity"
+    android:orientation="vertical"
+    android:background="@color/bgBlue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Segitiga"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rumus:"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/2 * Alas * Tinggi"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/edtAlas"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Masukkan Alas"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="15dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtTinggi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Masukkan Tinggi"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="15dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/txtHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorButton"
+        android:textColor="#fff"/>
+
+</LinearLayout>

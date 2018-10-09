@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LuasPersegiPanjang"
+    android:orientation="vertical"
+    android:background="@color/bgBlue">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="     Hitung Luas Persegi Panjang"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rumus:"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panjang x Lebar"
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/edtPanjang"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Masukkan Panjang"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="25dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtLebar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Masukkan Lebar"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="25dp"
+        android:inputType="number"/>
+    
+    <TextView
+        android:id="@+id/txtHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="80dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="25dp"
+        />
+    
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hitung"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorButton"
+        android:textColor="#fff"/>
+
+</LinearLayout>
